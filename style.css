@@ -1,0 +1,61 @@
+.root {
+    --dark: #00539CFF;
+    --text: #FAEBEFFF;
+}
+
+h1 {
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: ;
+
+}
+
+#current-price {
+    width: 18rem;
+}
+
+#stock-quantity {
+    width: 12rem;
+}
+
+#initial-price {
+    width: 15rem;
+}
+
+body{
+    text-align: center;
+    background: black;
+    color: coral;
+    font-size: 30px;
+    
+    
+    }
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+}
+
+#output-box {
+    
+    margin-top: 2rem;
+    margin-left: 15%;
+    margin-right: 25%;
+    /* margin: auto; */
+    width:max-content;
+    padding-top:  1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    color: #E94B3CFF;
+    border-style: solid;
+    background-color: #2D2926FF;
+
+}
+
+#submit-btn {
+    width: 40%;
+    padding-top: 0.5rem 0.5rem;
+    font-size: x-large;
+}
