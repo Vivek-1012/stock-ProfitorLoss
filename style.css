@@ -37,21 +37,23 @@ label{
 }
 
 #output-box {
-    
-    margin-top: 2rem;
-    margin-left: 15%;
-    margin-right: 25%;
-    /* margin: auto; */
-    width:max-content;
+    display: flex;
+align-items: center;
+justify-content: center;
+    /* margin-top: 2rem;
+     margin-left: 25%;
+     margin-right: 25%;
+     /* margin: auto; */
+     /* width:max-content; 
     padding-top:  1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
+    padding-bottom: 1rem; */
+    border-radius: 1rem; */
     color: #E94B3CFF;
     border-style: solid;
-    background-color: #2D2926FF;
-
+    background-color: black;
+   
 }
 
 #submit-btn {
