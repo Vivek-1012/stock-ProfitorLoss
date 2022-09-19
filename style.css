@@ -1,12 +1,12 @@
 .root {
-    --dark: #00539CFF;
+    --dark-color: rgb(17, 116, 202);
     --text: #FAEBEFFF;
 }
 
 h1 {
     font-size: 60px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: ;
+    -webkit-text-stroke-color: white ;
 
 }
 
@@ -24,8 +24,8 @@ h1 {
 
 body{
     text-align: center;
-    background: black;
-    color: coral;
+    background-image: url(https://images.unsplash.com/photo-1662675686331-3f67b029eb44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1054&q=80);
+    color: white;
     font-size: 30px;
     
     
@@ -40,19 +40,7 @@ label{
     display: flex;
 align-items: center;
 justify-content: center;
-    /* margin-top: 2rem;
-     margin-left: 25%;
-     margin-right: 25%;
-     /* margin: auto; */
-     /* width:max-content; 
-    padding-top:  1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem; */
-    border-radius: 1rem; 
-    color: #E94B3CFF;
-    border-style: solid;
-    background-color: black;
+margin-top: 1rem;
    
 }
 
